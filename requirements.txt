@@ -1,0 +1,27 @@
+# Core dependencies
+langchain>=0.1.0
+openai==0.28
+python-dotenv>=1.0.0
+langchain-community
+
+
+# Optional: For vector store & embedding support
+faiss-cpu>=1.7.4
+chromadb>=0.4.0
+tiktoken>=0.5.1
+
+# Optional: If you want to work with PDFs, docs, etc.
+unstructured>=0.10.2
+pypdf>=3.15.0
+
+# Optional: Web-based agent tools
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+
+ipykernel
+python-dotenv
+duckduckgo-search
+langgraph
+sentence-transformers
+fastapi
+uvicorn
